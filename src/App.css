@@ -1,0 +1,25 @@
+.App{
+    border: 1px solid black;
+    margin: 50px 30px;
+    padding: 25px 15px;
+    cursor: pointer;
+}
+.to-do-container{
+    flex-direction: column;
+    display: flex;
+}
+.to-do-container ul li{
+    width: 180px;
+    overflow-wrap:break-word ;
+    list-style-type: "👉";
+    font-size: 25px;
+    cursor: pointer;
+}
+.done{
+    text-decoration: line-through;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
